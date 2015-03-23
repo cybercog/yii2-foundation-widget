@@ -9,14 +9,14 @@ namespace xj\foundation;
 
 use yii\web\AssetBundle;
 
-class FoundationAsset extends AssetBundle {
+class FoundationFullAsset extends AssetBundle {
 
     public $sourcePath = '@bower/bower-foundation';
     public $css = [
         'css/normalize.css',
         'css/foundation.css',
     ];
-    public $js = ['js/foundation/foundation.js'];
+    public $js = ['js/foundation.min.js'];
     public $depends = ['yii\web\JqueryAsset'];
 
 }

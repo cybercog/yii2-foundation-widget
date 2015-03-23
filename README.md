@@ -11,6 +11,10 @@ composer.json
 },
 ```
 
+View
+---
 ```php
 xj\foundation\FoundationAsset::register($this);
+//OR
+xj\foundation\FoundationFullAsset::register($this);
 ```
