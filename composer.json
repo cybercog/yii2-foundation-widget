@@ -10,7 +10,7 @@
     ],
     "require": {
         "yiisoft/yii2": "*",
-        "bower-asset/bower-foundation": "dev-master"
+        "bower-asset/bower-foundation-for-yii2": "*"
     },
     "autoload": {
         "psr-4": {
