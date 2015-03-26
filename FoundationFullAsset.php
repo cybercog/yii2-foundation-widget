@@ -11,7 +11,7 @@ use yii\web\AssetBundle;
 
 class FoundationFullAsset extends AssetBundle {
 
-    public $sourcePath = '@bower/bower-foundation';
+    public $sourcePath = '@bower/bower-foundation-for-yii2';
     public $css = [
         'css/normalize.css',
         'css/foundation.css',
